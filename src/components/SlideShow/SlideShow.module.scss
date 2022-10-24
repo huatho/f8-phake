@@ -1,0 +1,53 @@
+.slick-item {
+    height: 270px;
+    width: 1380px;
+    margin: 20px 0px 0px 20px;
+    background: linear-gradient(to right, rgb(104, 40, 250), rgb(255, 186, 164));
+    border-radius: 16px;
+}
+
+.slider {
+    display: flex;
+    height: 270px;
+}
+
+.Slideshow-left {
+    width: 60%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0px 50px 30px;
+
+    h2 {
+        font-size: 2.3rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        max-width: 80%;
+    }
+
+    a {
+        width: 135px;
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        border: 2px solid #fff;
+        border-radius: 16px;
+        text-align: center;
+        padding: 8px 10px;
+    }
+}
+
+.Slideshow-right {
+    flex: 1;
+    height: 100%;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
